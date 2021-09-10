@@ -1,0 +1,32 @@
+.MyBtn {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid teal;
+  margin-right: 5px;
+  background-color: transparent;
+
+  &:hover {
+    background-color: black;
+    color: white;
+    transition: 2s;
+  }
+}
+.MyBidBtn {
+  padding: 15px 120px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  margin-bottom: 15px;
+}
+.MyChooser {
+  padding: 20px;
+  border: 1px solid orangered;
+  border-radius: 50%;
+  background: transparent;
+  margin-bottom: 10px;
+}
+.MyActiveBtn {
+
+}
